@@ -30,7 +30,18 @@ Foi usado um ambiente virtual anaconda para instalação das bibliotecas necessa
    export TWILIO_AUTH_TOKEN='your_auth_token'
    ```
 
-## Como Executar
+### Configuração do nrgrok
+- Criar uma conta do ngrok
+- Copiar o codigo do auth-token e executar
+  `ngrok config add-authtoken YOUR_AUTHTOKEN`
+
+- Instalar o ngrok (Se não tiver instalado)
+    `npm install ngrok`
+
+- Executá-lo
+    `ngrok http 5000`
+  
+## Executando o programa
 
 1. **Carregar o modelo YOLOv8:**
    O modelo YOLOv8 é carregado a partir do arquivo `yolov8n-seg.pt`. Certifique-se de que este arquivo esteja disponível no diretório de trabalho ou especifique o caminho correto no código.
