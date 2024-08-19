@@ -9,10 +9,14 @@ Certifique-se de ter o Python 3.7 ou superior instalado. Você precisará instal
 
 ### Bibliotecas Necessárias
 
-Instale as bibliotecas necessárias executando:
+Foi usado um ambiente virtual anaconda para instalação das bibliotecas necessarias
 
-```bash
-pip install opencv-python-headless vidgear ultralytics Flask twilio pandas
+
+  
+```  
+- conda create --name video
+- conda activate video
+- pip install opencv-python-headless vidgear ultralytics Flask twilio pandas
 ```
 
 ### Configuração do Twilio
