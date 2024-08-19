@@ -16,7 +16,7 @@ Foi usado um ambiente virtual anaconda para instalação das bibliotecas necessa
 ```  
 - conda create --name video
 - conda activate video
-- pip install opencv-python-headless vidgear ultralytics Flask twilio pandas moviepy
+- pip install opencv-python-headless vidgear ultralytics Flask twilio pandas moviepy yt_dlp
 ```
 
 ### Configuração do Twilio
