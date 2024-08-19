@@ -42,6 +42,8 @@ Foi usado um ambiente virtual anaconda para instalação das bibliotecas necessa
    ```
 
 4. **Interagir com o Bot:**
+   - Inicie o bot com `join <sandbox name>.`
+   - Verifique se o bot está funcionando mandando qualquer mensagem ao chat do bot.
    - Envie um vídeo via WhatsApp para o número Twilio configurado.
    - Ou envie um link de vídeo do YouTube começando com "https://www.youtube.com/watch" via WhatsApp.
 
