@@ -5,8 +5,10 @@ from download_video import process_whatsapp_video, process_youtube_video, clean_
 
 app = Flask(__name__)
 
+numero = input("Digite seu numero de whatsapp (DD e Numero sem espaços): ")
+
 twilio_number = 'whatsapp:+14155238886' 
-to_number = 'whatsapp:+556791416568'  #coloque o seu numero do whatsapp aqui
+to_number = 'whatsapp:+55'+numero 
 
 @app.route('/bot', methods=['POST'])
 def bot():
