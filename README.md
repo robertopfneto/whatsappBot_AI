@@ -72,9 +72,5 @@ O bot processará o vídeo e responderá com informações sobre os objetos iden
 - **`process_youtube_video()`:** Processa vídeos do YouTube e executa inferências usando o modelo YOLOv8.
 - **`process_video_and_reply()`:** (a ser implementado) Processa vídeos enviados via WhatsApp.
 - **YOLOv8:** O modelo de visão computacional utilizado para identificar objetos nos vídeos.
-
-## Considerações
-
-- **Resolução de Vídeo:** O código redimensiona os frames do vídeo para 1920x1080 para melhorar a visualização.
-- **Respostas Assíncronas:** As respostas de processamento de vídeo são feitas de forma assíncrona para evitar bloqueios na aplicação Flask.
+íncrona para evitar bloqueios na aplicação Flask.
 
