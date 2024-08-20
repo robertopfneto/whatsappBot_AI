@@ -1,0 +1,9 @@
+opencv-python-headless
+vidgear
+ultralytics
+Flask
+twilio
+pandas
+moviepy
+yt-dlp
+requests-toolbelt
